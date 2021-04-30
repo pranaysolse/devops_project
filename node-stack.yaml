@@ -1,0 +1,11 @@
+version: '3.7'
+
+
+services:
+  app:
+     image: node2
+     ports:
+       - "4000:8080"
+  redis:
+    image: redis:alpine
+ 
